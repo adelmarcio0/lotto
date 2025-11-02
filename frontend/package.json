@@ -1,0 +1,23 @@
+{
+  "name": "lotto-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "genabi": "node ../scripts/genabi.mjs"
+  },
+  "dependencies": {
+    "@fhevm/mock-utils": "^0.1.0",
+    "@zama-fhe/relayer-sdk": "^0.2.0",
+    "ethers": "^6.11.1",
+    "next": "^14.2.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.2",
+    "typescript": "^5.4.5"
+  }
+}

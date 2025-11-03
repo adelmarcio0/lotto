@@ -8,6 +8,7 @@ import {Ownable} from "@openzeppelin/contracts/access/Ownable.sol";
 
 /// @title Lotto — Privacy-preserving on-chain lottery using Zama FHEVM
 /// @notice Implements encrypted ticket numbers, encrypted draw results, and frontend user decryption per Zama template patterns
+/// @dev Uses FHEVM for all encrypted operations
 contract Lotto is SepoliaConfig, ERC721, Ownable {
     // ============================
     // Types

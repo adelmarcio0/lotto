@@ -4,6 +4,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         <title>FHEVM Lottery</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Privacy-preserving lottery using Zama FHEVM" />
       </head>
       <body style={{ 
         fontFamily: 'system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif',
